@@ -1,0 +1,27 @@
+.taskboard-container {
+  height: 80vh;
+  padding: 1rem 10rem;
+  .taskTitle-container {
+    display: flex;
+    .add-task-btn {
+      margin-left: auto;
+    }
+  }
+  .task-stage-flex-container {
+    display: flex;
+    height: 70vh;
+    gap: 0.5rem;
+
+    .task-stage-flex-item {
+      flex: 1 1 0;
+      background: var(--neutral-silver, #f5f7fa);
+      text-align: left;
+      padding: 1rem;
+      overflow-y: scroll;
+
+      h5 {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.task-card-container {
+  width: 92%;
+  height: 7rem;
+  padding: 1rem;
+  background-color: #ffffff;
+
+  .task-taskTitle-flex-container {
+    display: flex;
+    align-items: center;
+  }
+  .task-taskTitle {
+    display: inline-block;
+    width: 10rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .task-description {
+    display: -webkit-box;
+    width: 10rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}

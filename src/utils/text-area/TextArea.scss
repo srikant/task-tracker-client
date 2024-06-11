@@ -1,0 +1,11 @@
+.text-area-container {
+  text-align: left;
+  textarea {
+    display: block;
+    border: 1px solid var(--Gray, #a6a6a6);
+    border-radius: 0.3rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+}
